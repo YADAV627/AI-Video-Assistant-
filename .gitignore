@@ -1,0 +1,40 @@
+# Environment files - API keys private rakho
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated project data
+vector_db/
+processed_data/
+
+# Downloaded media
+downloades/
+*.mp3
+*.wav
+*.mp4
+*.m4a
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+backup_*/
+audit.zip
+
+# Audit and backup copies
+AI_Video_Assistant_Audit/
+backup_*/
+audit.zip
